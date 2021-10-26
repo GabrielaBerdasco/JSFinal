@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: ivory;
+}
+
+footer {
+  position: relative;
+  bottom: 0px;
+  height: 2.5rem;
+  width: 100%;
+}
+
+.tituloPrin {
+  color: #198754;
+  margin: 25px 30px;
+  font-size: xx-large;
+  font-weight: 700;
+  text-align: center;
+}
+
+.subtitulo {
+  color: #198754;
+  font-weight: 600;
+  font-size: x-large;
+  text-decoration: underline;
+  margin: 10px 45px;
+}
+
+#parrafoCondiciones {
+  color: #707070;
+  font-size: small;
+  text-align: center;
+}
+
+.formu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  margin: 30px;
+  color: #707070;
+}
+
+.formu input {
+  margin: 15px;
+  padding: 10px;
+  border-radius: 5px 0px;
+}
+
+.formu label {
+  font-size: x-large;
+}
+
+.formu select {
+  width: 180px;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 5px 0px;
+  font-size: large;
+}
+
+.formu button {
+  width: 150px;
+  margin: 30px;
+  padding: 8px;
+  border-radius: 5px 0px;
+}
+
+.modal-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.modal-active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal1 {
+  background-color: ivory;
+  width: 400px;
+  height: 500px;
+  border: 2px solid #198754;
+  border-radius: 5px 0px;
+  padding: 22px;
+  overflow-y: scroll;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal1 button {
+  width: 150px;
+  margin: 30px;
+  padding: 8px;
+  border-radius: 5px 0px;
+}
+
+.modal1 legend {
+  color: #198754;
+  font-size: x-large;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.modal1 label {
+  color: #707070;
+  font-size: x-large;
+}
+
+.input-error {
+  border: red solid 2px;
+}
+
+#parrafoPr {
+  color: #707070;
+  font-size: x-large;
+  font-weight: 500;
+}
+
+#conversion {
+  padding: 30px;
+}
+
+#conversion legend {
+  padding: 15px 0px;
+  font-size: x-large;
+  font-weight: 300;
+}
+
+#conversion label {
+  padding: 15px 0px;
+  font-size: large;
+  font-weight: 300;
+}
+
+#conversion input {
+  margin: 15px;
+  padding: 10px;
+  border-radius: 5px 0px;
+}
+
+#mResult {
+  color: #198754;
+  font-size: x-large;
+  font-weight: 700;
+  margin: 15px 45px;
+}
+
+#mostrar {
+  margin: 20px;
+}
+
+#tabla {
+  margin: 40px 70px;
+  padding: 5px;
+  border: 6px double #707070;
+}
+
+#tabla th {
+  background-color: #87cead;
+  border: 1px solid #707070;
+  padding: 8px 12px;
+}
+
+#tabla tr, #tabla td {
+  border: 1px solid #707070;
+  padding: 8px 12px;
+}
+
+#tabla2 {
+  margin: 40px 70px;
+  padding: 5px;
+  border: 6px double #707070;
+}
+
+#tabla2 th {
+  background-color: #87cead;
+  border: 1px solid #707070;
+  padding: 8px 12px;
+}
+
+#tabla2 tr, #tabla2 td {
+  border: 1px solid #707070;
+  padding: 8px 12px;
+}
+/*# sourceMappingURL=style.css.map */

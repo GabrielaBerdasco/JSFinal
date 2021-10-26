@@ -1,0 +1,208 @@
+$color: #198754;
+$color1: rgb(112, 112, 112);
+$color2: ivory;
+$color3: #87cead;
+
+
+//GENERAL
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: $color2;  
+}
+
+footer{
+    position: relative;
+    bottom: 0px;
+    height: 2.5rem;
+    width: 100%;
+    
+    
+}
+
+.tituloPrin{
+    color: $color;
+    margin: 25px 30px;
+    font-size: xx-large;
+    font-weight: 700;
+    text-align: center;
+}
+
+.subtitulo{
+    color: $color;
+    font-weight: 600;
+    font-size: x-large;
+    text-decoration: underline;
+    margin: 10px 45px;
+}
+
+#parrafoCondiciones{
+    color: $color1;
+    font-size: small;
+    text-align: center;
+}
+
+//GAS
+
+.formu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 30px;
+    color: $color1;
+    input{
+        margin: 15px;
+        padding: 10px;
+        border-radius: 5px 0px;
+    }
+    label{
+        font-size: x-large;
+    }
+    select{
+        width: 180px;
+        margin: 15px;
+        padding: 10px;
+        border-radius: 5px 0px;
+        font-size: large;
+    }
+    button{
+        width: 150px;
+        margin: 30px;
+        padding: 8px;
+        border-radius: 5px 0px;
+    }
+}
+
+.modal-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease-in;
+}
+
+.modal-active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal1 {
+    background-color: $color2;
+    width: 400px;
+    height: 500px;
+    border: 2px solid $color;
+    border-radius: 5px 0px;
+    padding: 22px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    button{
+        width: 150px;
+        margin: 30px;
+        padding: 8px;
+        border-radius: 5px 0px;
+    }
+    legend{
+        color: $color;
+        font-size: x-large;
+        font-weight: 500;
+        text-decoration: underline;
+    }
+    label{
+        color: $color1;
+        font-size: x-large;
+    }
+}
+
+.input-error {
+    border: red solid 2px;
+}
+
+
+//ELECTRICIDAD
+
+#parrafoPr {
+    color: $color1;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+#conversion{
+    padding: 30px;
+    legend{
+        padding: 15px 0px;
+        font-size: x-large;
+        font-weight: 300;
+    }
+    label{
+        padding: 15px 0px;
+        font-size: large;
+        font-weight: 300;
+    }
+    input{
+        margin: 15px;
+        padding: 10px;
+        border-radius: 5px 0px;
+    }
+}
+
+#mResult{
+    color: $color;
+    font-size: x-large;
+    font-weight: 700;  
+    margin: 15px 45px; 
+}
+
+#mostrar{
+    margin: 20px;
+}
+
+
+//cuadroResultado
+
+//GAS
+#tabla{
+    margin: 40px 70px;
+    padding: 5px;
+    border: 6px double $color1;
+    th {
+        background-color: $color3;
+        border: 1px solid $color1;
+        padding: 8px 12px;
+    }    
+    tr, td {
+        border: 1px solid $color1;
+        padding: 8px 12px;
+    }
+}
+
+//ELECTRICIDAD
+#tabla2{
+    margin: 40px 70px;
+    padding: 5px;
+    border: 6px double $color1;
+    th {
+        background-color: $color3;
+        border: 1px solid $color1;
+        padding: 8px 12px;
+    }    
+    tr, td {
+        border: 1px solid $color1;
+        padding: 8px 12px;
+    }
+}
