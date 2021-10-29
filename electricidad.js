@@ -16,9 +16,9 @@ class UsuarioAparato {
   }
 }
 
-function pedirDatos2(resultado2) {
-  let costokWh = valorkWh.value;
-  let electrodomestico = seleccion.value;
+function pedirDatos2(preciokWh, electrodom, resultado2) {
+  let costokWh = preciokWh;
+  let electrodomestico = electrodom;
   let costoElectrico = resultado2;
   return new UsuarioAparato(costokWh, electrodomestico, costoElectrico);
 }
@@ -78,20 +78,31 @@ const selectores = (datos) => {
 
     seleccion.appendChild(opcion);
   });
+  
+  const consumoAparato = datos.map( (aparato) => {
+    return aparato.tamaño
+  })
+  consumoAparato.forEach( (item) => {
+    
+  })
+
 };
+
 
 //FUNCIÓN: Llamada AJAX de archivo con datos de electrodomésticos
 
 const url = "./electricidad.json";
+let datos
 
 const llamAjax = async () => {
   const response = await fetch(url);
 
   const data = await response.json();
 
-  const datos = data.map((item) => new Aparatos(item.nombre, item.tamaño));
+  datos = data.map((item) => new Aparatos(item.nombre, item.tamaño));
 
   selectores(datos);
+
 };
 
 //Eventos
@@ -100,9 +111,7 @@ const seleccion = document.getElementById("seleccionAparato");
 const valorkWh = document.getElementById("kWh");
 const btnEl = document.getElementById("btnE");
 
-seleccion.addEventListener("click", () => {
   llamAjax();
-});
 
 let preciokWh = 0;
 valorkWh.addEventListener("change", () => {
@@ -118,10 +127,15 @@ let electrodom = "";
 seleccion.addEventListener("change", () => {
   electrodom = seleccion.value;
   console.log(electrodom);
+
 });
+
 
 btnEl.addEventListener("click", (e) => {
   e.preventDefault();
 
-  datosUsuarioE = pedirDatos2();
+  let resultado2 = 
+  datosUsuarioE = pedirDatos2(preciokWh, electrodom, resultado2);
 });
+
+
