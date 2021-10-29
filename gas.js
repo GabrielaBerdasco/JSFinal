@@ -1,3 +1,5 @@
+//Array principal con los datos de gasto de gas por artefacto y tamaño
+
 const artefactos = [
   {
     nombre: "cocina",
@@ -30,6 +32,7 @@ const artefactos = [
   },
 ];
 
+//Constructor de datos del usuario
 class UsuarioArtefacto {
   constructor(pNombre, pCostoM3, pArtefacto, pCosto) {
     this.nombre = pNombre;
@@ -47,10 +50,10 @@ function pedirDatos(resultado) {
   return new UsuarioArtefacto(nombre, costoM3, artefacto, costo);
 }
 
-//Array para almacenar los datos que el usuario obtiene
+//Array para almacenar los cálculos que el usuario obtiene
 const arrayArtefactos = [];
 
-
+//Saludo inicial
 const saludo = document.getElementById("saludoInicial");
 saludo.innerHTML =
   "Hola! Calculemos cuánto gas consumen los artefactos de tu casa por hora y cuál es el precio (sin impuestos) de ese consumo";
@@ -111,7 +114,7 @@ const almacenarDatos = () => {
 };
 
 
-//FUNCIÓN: Creación contenido del modal con los datos del artefacto elegido previamente
+//FUNCIÓN: Creación contenido del modal con los datos correspondientes al artefacto elegido
 let tamaños1 = [];
 let tam = 0;
 const crearTam = () => {

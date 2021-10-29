@@ -1,0 +1,291 @@
+[
+    {"nombre": "Afeitadora",
+     "tamaño": 5
+    },
+    {"nombre": "Aire acondicionado de 2200 frigorías F/C",
+     "tamaño": 1013
+    },
+    {"nombre": "Aire acondicionado de 3500 frigorías F/C",
+     "tamaño": 1613
+    },
+    {"nombre": "Aire acondicionado de 4500 frigorías F/C",
+     "tamaño": 2153
+    },
+    {"nombre": "Aire acondicionado de 2200 frigorías F/C - Inverter",
+     "tamaño": 658
+    },
+    {"nombre": "Aire acondicionado de 3500 frigorías F/C - Inverter",
+     "tamaño": 1048
+    },
+    {"nombre": "Aire acondicionado de 4500 frigorías F/C - Inverter",
+     "tamaño": 1365
+    },
+    {"nombre": "Anafe vitrocerámica con hornalla de 120 mm de diámetro",
+     "tamaño": 750
+    },
+    {"nombre": "Anafe vitrocerámica con hornalla de 140 mm de diámetro",
+     "tamaño": 1250
+    },
+    {"nombre": "Anafe vitrocerámica con hornalla de 175 mm de diámetro",
+     "tamaño": 1500
+    },
+    {"nombre": "Anafe vitrocerámica con hornalla de 200 mm de diámetro",
+     "tamaño": 1800
+    },
+    {"nombre": "Anafe vitrocerámica con hornalla de 215 mm de diámetro",
+     "tamaño": 2110
+    },
+    {"nombre": "Anafe vitrocerámica con hornalla de 220 mm de diámetro",
+     "tamaño": 2350
+    },
+    {"nombre": "Anafe resistivo con hornalla de 150 mm de diámetro",
+     "tamaño": 1000
+    },
+    {"nombre": "Anafe resistivo con hornalla de 190 mm de diámetro",
+     "tamaño": 2000
+    },
+    {
+    "nombre": "Aspiradora",
+    "tamaño": 1200
+    },
+    {
+    "nombre": "Batidora de mano",
+    "tamaño": 300
+    },
+    {
+    "nombre": "Bomba de agua de 1/2 HP",
+    "tamaño": 380
+    },
+    {
+    "nombre": "Bomba de agua de 3/4 HP",
+    "tamaño": 570
+    },
+    {
+    "nombre": "Cafetera de filtro eléctrica",
+    "tamaño": 900
+    },
+    {
+    "nombre": "Caloventilador chico c/termostato",
+    "tamaño": 1500
+    },
+    {
+    "nombre": "Cargador de celular genérico",
+    "tamaño": 5
+    },
+    {
+    "nombre": "Computadora (sólo la CPU)",
+    "tamaño": 200
+    },
+    {
+    "nombre": "Extractor de aire para cocina o baño - 80 m3/hora",
+    "tamaño": 12
+    },
+    {
+    "nombre": "Extractor de aire para cocina o baño - 200 m3/hora",
+    "tamaño": 20
+    },
+    {
+    "nombre": "Extractor de aire para cocina o baño - 1200 m3/hora",
+    "tamaño": 50
+    },
+    {
+    "nombre": "Estufa halógena de 3 velas c/termostato",
+    "tamaño": 1500
+    },
+    {
+    "nombre": "Estufa de cuarzo c/termostato",
+    "tamaño": 1500
+    },
+    {
+    "nombre": "Freezer",
+    "tamaño": 113
+    },
+    {
+    "nombre": "Heladera",
+    "tamaño": 75
+    },
+    {
+    "nombre": "Heladera con freezer",
+    "tamaño": 90
+    },
+    {
+    "nombre": "Heladera con freezer - Inverter",
+    "tamaño": 35
+    },
+    {
+    "nombre": "Horno eléctrico de 25 a 30 litros c/termostato",
+    "tamaño": 750
+    },
+    {
+    "nombre": "Horno eléctrico de 73 litros c/termostato, para empotrar",
+    "tamaño": 1225
+    },
+    {
+    "nombre": "Lámpara de bajo consumo de 11W",
+    "tamaño": 11
+    },
+    {
+    "nombre": "Lámpara de bajo consumo de 15W",
+    "tamaño": 15
+    },
+    {
+    "nombre": "Lámpara de bajo consumo de 20W",
+    "tamaño": 20
+    },
+    {
+    "nombre": "Lámpara halógena de 100 W",
+    "tamaño": 100
+    },
+    {
+    "nombre": "Lámpara halógena de 40 W",
+    "tamaño": 40
+    },
+    {
+    "nombre": "Lámpara halógena de 60 W",
+    "tamaño": 60
+    },
+    {
+    "nombre": "Lámpara LED de 5 W",
+    "tamaño": 5
+    },
+    {
+    "nombre": "Lámpara LED de 9 W",
+    "tamaño": 9
+    },
+    {
+    "nombre": "Lámpara LED de 11 W",
+    "tamaño": 11
+    },
+    {
+    "nombre": "Lavarropas automático de 5 kg con calentamiento de agua",
+    "tamaño": 875
+    },
+    {
+    "nombre": "Lavarropas automático de 5 kg",
+    "tamaño": 175
+    },
+    {
+    "nombre": "Lavarropas semi-automático de 5 kg",
+    "tamaño": 80
+    },
+    {
+    "nombre": "Lavavajilla para 12 cubiertos",
+    "tamaño": 1125
+    },
+    {
+    "nombre": "Licuadora de mano o de pie",
+    "tamaño": 600
+    },
+    {
+    "nombre": "Lustraspiradora",
+    "tamaño": 720
+    },
+    {
+    "nombre": "Microondas",
+    "tamaño": 640
+    },
+    {
+    "nombre": "Minicomponentes",
+    "tamaño": 60
+    },
+    {
+    "nombre": "Monitor LED de 19",
+    "tamaño": 22
+    },
+    {   
+    "nombre": "Notebook",
+    "tamaño": 22
+    },
+    {
+    "nombre": "Pava eléctrica de 1,7 litros",
+    "tamaño": 2000
+    },
+    {
+    "nombre": "Plancha",
+    "tamaño": 750
+    },
+    {
+    "nombre": "Planchita de pelo o buclera",
+    "tamaño": 40
+    },
+    {
+    "nombre": "Radiador eléctrico mediano c/termostato",
+    "tamaño": 1500
+    },
+    {
+    "nombre": "Reproductor de DVD",
+    "tamaño": 15
+    },
+    {
+    "nombre": "Secador de cabellos",
+    "tamaño": 2000
+    },
+    {
+    "nombre": "Secarropas a calor",
+    "tamaño": 950
+    },
+    {
+    "nombre": "Secarropas centrífugo",
+    "tamaño": 380
+    },
+    {
+    "nombre": "Televisor color de tubo fluorescente de 21",
+    "tamaño": 75
+    },
+    {
+    "nombre": "Televisor color de tubo fluorescente de 25",
+    "tamaño": 155
+    },
+    {
+    "nombre": "Televisor color de tubo fluorescente de 29 a 34",
+    "tamaño": 175
+    },
+    {
+    "nombre": "Televisor LCD de 40",
+    "tamaño": 180
+    },
+    {
+    "nombre": "Televisor LED 24",
+    "tamaño": 40
+    },
+    {
+    "nombre": "Televisor LED 32 a 50",
+    "tamaño": 90
+    },
+    {
+    "nombre": "Termotanque eléctrico c/termostato",
+    "tamaño": 1500
+    },
+    {
+    "nombre": "Tostadora",
+    "tamaño": 950
+    },
+    {
+    "nombre": "Tubo fluorescente de 18 W",
+    "tamaño": 18
+    },
+    {
+    "nombre": "Tubo fluorescente de 36 W",
+    "tamaño": 36
+    },
+    {
+    "nombre": "Tubo fluorescente de 58 W",
+    "tamaño": 58
+    },
+    {
+    "nombre": "Ventilador de techo",
+    "tamaño": 60
+    },
+    {
+    "nombre": "Ventilador de pie",
+    "tamaño": 90
+    },
+    {
+    "nombre": "Vitroconvector 54 x 57 cm c/termostato",
+    "tamaño": 1000
+    },
+    {
+    "nombre": "Vitroconvector 86 x 58 cm c/termostato",
+    "tamaño": 2000
+    }
+]

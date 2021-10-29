@@ -1,3 +1,5 @@
+//Variables
+
 $color: #198754;
 $color1: rgb(112, 112, 112);
 $color2: ivory;
@@ -46,8 +48,6 @@ footer{
     text-align: center;
 }
 
-//GAS
-
 .formu{
     display: flex;
     flex-direction: column;
@@ -57,16 +57,16 @@ footer{
     color: $color1;
     input{
         margin: 15px;
-        padding: 10px;
+        padding: 3px;
         border-radius: 5px 0px;
     }
     label{
         font-size: x-large;
     }
     select{
-        width: 180px;
+        width: auto;
         margin: 15px;
-        padding: 10px;
+        padding: 5px;
         border-radius: 5px 0px;
         font-size: large;
     }
@@ -77,6 +77,9 @@ footer{
         border-radius: 5px 0px;
     }
 }
+
+
+//GAS
 
 .modal-container {
     height: 100vh;
@@ -142,25 +145,6 @@ footer{
     font-weight: 500;
 }
 
-#conversion{
-    padding: 30px;
-    legend{
-        padding: 15px 0px;
-        font-size: x-large;
-        font-weight: 300;
-    }
-    label{
-        padding: 15px 0px;
-        font-size: large;
-        font-weight: 300;
-    }
-    input{
-        margin: 15px;
-        padding: 10px;
-        border-radius: 5px 0px;
-    }
-}
-
 #mResult{
     color: $color;
     font-size: x-large;
@@ -175,7 +159,7 @@ footer{
 
 //cuadroResultado
 
-//GAS
+//Gas
 #tabla{
     margin: 40px 70px;
     padding: 5px;
@@ -191,7 +175,7 @@ footer{
     }
 }
 
-//ELECTRICIDAD
+//Electricidad
 #tabla2{
     margin: 40px 70px;
     padding: 5px;

@@ -3,20 +3,14 @@ let artefactosArray = JSON.parse(localStorage.getItem("arrayArtefactos"));
 
 console.log(artefactosArray);
 
+//GAS
+
 //Mostrar los resultados en una tabla
 
 const tabla = document.getElementById("tabla");
 
 artefactosArray.forEach((ele) => {
-  /* $('#tabla').append(`
-    <tr>
-        <td>${ele.artefacto}</td>
-        <td>${ele.costoM3}</td>
-        <td>${ele.costo}</td>
-        <td><input type = "number"></td>
-        <td></td>
-    </tr> 
-    `) */
+  
   //Creación elementos tabla
 
   const tablaR = document.createElement("tr");
@@ -49,3 +43,7 @@ artefactosArray.forEach((ele) => {
     tablaR.appendChild(tablaH);
   });
 });
+
+
+
+//ELECTRICIDAD

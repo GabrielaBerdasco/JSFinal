@@ -51,20 +51,31 @@
       <div id="titulo">
         <h2 class="tituloPrin"></h2>
       </div>
-      <form id="conversion">
+      <form id="conversion" class="formu">
         <label for="conver">Ingresa los vatios que consume tu aparato</label>
         <input type="number" name="conver" class="conver" />
       </form>
-      <p id="parrafoCondiciones">
-        *Para este cálculo necesitarás tener conocimiento del consumo en
-        vatios(W) o en kilovatios(kW)* <br />
-        *El resultado que se muestra no incluye impuestos ni otros gastos
-        agregados por la empresa prestadora del servicio eléctrico.*<br />
-        *Los valores de consumo están elaborados de acuerdo a información
-        proporcionada por el sitio "twenergy.com"*
-      </p>
     </article>
-  </section>
+    <article>
+      <form class="formu">
+        <label for="valorkWh" class="etiqueta">Ingrese el valor de kilo vatios por hora (kWh) según su factura: $</label>
+        <input type="number" name="valorkWh" id="kWh" class="input-error">
+        <label for="aparato" class="etiqueta">Indique el artefacto a analizar:</label>
+        <select name="aparato" id="seleccionAparato">
+        </form>
+        <button type="button" id="btnE">Resultado</button>
+      </article>
+        <aside>
+        <p id="parrafoCondiciones">
+          *Para este cálculo necesitarás tener conocimiento del consumo en
+          vatios(W) o en kilovatios(kW)* <br />
+          *El resultado que se muestra no incluye impuestos ni otros gastos
+          agregados por la empresa prestadora del servicio eléctrico.*<br />
+          *Los valores de consumo están elaborados de acuerdo a información
+          proporcionada por el sitio "twenergy.com"*
+        </p>
+        </aside>
+    </section>
 
   <footer class="navbar-light bg-success bg-opacity-50">
     <div class="container-fluid d-flex flex-column align-items-center">
