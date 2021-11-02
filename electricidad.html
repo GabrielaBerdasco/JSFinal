@@ -53,18 +53,26 @@
       </div>
       <form id="conversion" class="formu">
         <label for="conver">Ingresa los vatios que consume tu aparato</label>
-        <input type="number" name="conver" class="conver" />
+        <input type="number" name="conver" id="conver" />
       </form>
-    </article>
-    <article>
-      <form class="formu">
-        <label for="valorkWh" class="etiqueta">Ingrese el valor de kilo vatios por hora (kWh) según su factura:
-          $</label>
-        <input type="number" name="valorkWh" id="kWh" class="input-error">
-        <label for="aparato" class="etiqueta">Indique el artefacto a analizar:</label>
+      <p id="parrafoPr2" class="parrafoPr">En caso de no saber el consumo eléctrico, haz click aquí para conocer el consumo estándar.</p>
+      <form id="consumoEstandar" class="formu">
         <select name="aparato" id="seleccionAparato">
 
         </select>
+        <button id="btnEstandar">Consumo</button>
+        <h2 id="mostrarResultado"></h2>
+      </form>
+    </article>
+    <article>
+      <form id="resultadoFinal" class="formu">
+        <label for="nombre" class="etiqueta">Ingresa el nombre del electrodoméstico:</label>
+        <input type="text" name="nombre" id="eleUsuario">
+        <label for="valorkWh" class="etiqueta">Ingrese el valor de kilo vatios por hora (kWh) según su factura:
+          $</label>
+        <input type="number" name="valorkWh" id="kWh" class="input-error">
+        <label for="aparato" class="etiqueta">Indique consumo (kWH):</label>
+        <input type="number" name="aparato" id="consumoElectrico" class="input-error">  
         <button type="button" id="btnE">Resultado</button>
       </form>
     </article>

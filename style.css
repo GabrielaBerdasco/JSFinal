@@ -30,10 +30,18 @@ footer {
   margin: 10px 45px;
 }
 
+.subtitulos {
+  color: #198754;
+  font-weight: 600;
+  font-size: x-large;
+  margin: 20px 45px;
+}
+
 #parrafoCondiciones {
   color: #707070;
   font-size: small;
   text-align: center;
+  margin: 15px;
 }
 
 .formu {
@@ -147,13 +155,13 @@ footer {
   border: red solid 2px;
 }
 
-#parrafoPr {
+.parrafoPr {
   color: #707070;
   font-size: x-large;
   font-weight: 500;
 }
 
-#mResult {
+#mResult, #mostrarResultado, #resultadoF {
   color: #198754;
   font-size: x-large;
   font-weight: 700;
