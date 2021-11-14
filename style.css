@@ -1,16 +1,19 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  background-color: ivory;
+  /* position: relative; */
+  background-color: white;
 }
 
 footer {
+  color: black;
   position: relative;
   bottom: 0px;
-  height: 2.5rem;
+  height: 3rem;
   width: 100%;
 }
 
@@ -37,11 +40,18 @@ footer {
   margin: 20px 45px;
 }
 
-#parrafoCondiciones {
-  color: #707070;
-  font-size: small;
+.logo--tipografía {
+  font-family: fantasy;
+  font-size: xx-large;
+}
+
+.boxInicioTips {
+  margin: 35px;
+  padding: 8px;
   text-align: center;
-  margin: 15px;
+  background-color: #87cead;
+  border: #198754 solid 3px;
+  border-radius: 15px 0px;
 }
 
 .formu {
@@ -75,7 +85,6 @@ footer {
   margin: 15px;
   padding: 5px;
   border-radius: 5px 0px;
-  font-size: large;
 }
 
 .formu button {
@@ -83,6 +92,37 @@ footer {
   margin: 30px;
   padding: 8px;
   border-radius: 5px 0px;
+}
+
+#parrafoCondiciones {
+  color: #707070;
+  font-size: small;
+  text-align: center;
+  margin: 15px;
+}
+
+.boxInicio {
+  margin: 70px 180px;
+  padding: 8px;
+  text-align: center;
+  background-color: rgba(185, 182, 182, 0.308);
+  border: #707070 solid 2px;
+  border-radius: 15px 0px;
+}
+
+.pImgInicio {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.enlace {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.enlaceResultados {
+  color: cadetblue;
 }
 
 .modal-container {
@@ -113,7 +153,7 @@ footer {
 }
 
 .modal1 {
-  background-color: ivory;
+  background-color: white;
   width: 400px;
   height: 500px;
   border: 2px solid #198754;
@@ -170,6 +210,14 @@ footer {
 
 #mostrar {
   margin: 20px;
+}
+
+.listaTips li {
+  margin: 15px;
+}
+
+.listaTips li::marker {
+  color: #87cead;
 }
 
 #tabla {

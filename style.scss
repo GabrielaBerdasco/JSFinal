@@ -2,7 +2,7 @@
 
 $color: #198754;
 $color1: rgb(112, 112, 112);
-$color2: ivory;
+$color2: white;
 $color3: #87cead;
 
 
@@ -14,13 +14,15 @@ $color3: #87cead;
 }
 
 body{
+    /* position: relative; */
     background-color: $color2;  
 }
 
 footer{
+    color: black;
     position: relative;
     bottom: 0px;
-    height: 2.5rem;
+    height: 3rem;
     width: 100%;
     
     
@@ -49,11 +51,18 @@ footer{
     margin: 20px 45px;
 }
 
-#parrafoCondiciones{
-    color: $color1;
-    font-size: small;
+.logo--tipografía{
+    font-family: fantasy;
+    font-size: xx-large;
+}
+
+.boxInicioTips{
+    margin: 35px;
+    padding: 8px;
     text-align: center;
-    margin: 15px;
+    background-color: $color3;
+    border: $color solid 3px;
+    border-radius: 15px 0px;
 }
 
 .formu{
@@ -76,7 +85,6 @@ footer{
         margin: 15px;
         padding: 5px;
         border-radius: 5px 0px;
-        font-size: large;
     }
     button{
         width: 150px;
@@ -84,6 +92,40 @@ footer{
         padding: 8px;
         border-radius: 5px 0px;
     }
+}
+
+#parrafoCondiciones{
+    color: $color1;
+    font-size: small;
+    text-align: center;
+    margin: 15px;
+}
+
+
+//Inicio
+
+.boxInicio{
+    margin: 70px 180px;
+    padding: 8px;
+    text-align: center;
+    background-color: rgba(185, 182, 182, 0.308);
+    border: $color1 solid 2px;
+    border-radius: 15px 0px;
+}
+
+.pImgInicio{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.enlace{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.enlaceResultados{
+    color: cadetblue;
 }
 
 
@@ -165,9 +207,21 @@ footer{
 }
 
 
+//Tips de ahorro
+
+.listaTips li{
+    margin: 15px;
+}
+
+.listaTips li::marker{
+    color: $color3;
+}
+
+
 //cuadroResultado
 
 //Gas
+
 #tabla{
     margin: 40px 70px;
     padding: 5px;
@@ -183,7 +237,9 @@ footer{
     }
 }
 
+
 //Electricidad
+
 #tabla2{
     margin: 40px 70px;
     padding: 5px;
@@ -198,3 +254,5 @@ footer{
         padding: 8px 12px;
     }
 }
+
+

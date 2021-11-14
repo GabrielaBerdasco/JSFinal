@@ -1,53 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CalcuPal - Tips de ahorro</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-  <header>  
-  <nav class="navbar navbar-expand-lg navbar-light bg-success bg-opacity-50">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">Name</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="./index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./gas.html">Gas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./electricidad.html">Electricidad</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Tips de ahorro</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./cuadroResultados.html">Resultados</a>
-              </li>
-            </ul>
-          </div>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-success bg-opacity-75 p-4">
+      <div class="container-fluid">
+        <a class="navbar-brand logo--tipografía" href="./index.html">CALCUPAL</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./gas.html">Gas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./electricidad.html">Electricidad</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Tips de ahorro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./cuadroResultados.html">Resultados</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </header>
-    
-    
-
-
-    <footer class=" navbar-light bg-success bg-opacity-50">
-      <div class="container-fluid d-flex flex-column align-items-center">
-        <span class="navbar-text">
-          © Copyright
-        </span>
       </div>
-    </footer>
+    </nav>
+  </header>
+
+  <section>
+    <article class="boxInicioTips">
+      <h2>A continuación, conoce algunos consejos para ahorrar energía en tu hogar y, por supuesto, en tus facturas</h2>
+    </article>
+
+    <article>
+      <h4 class="subtitulos">Para ahorrar GAS:</h4>
+      <ul class="listaTips">
+        <li>La temperatura de los radiadores no debería ser superior a 21 grados. La ropa dentro de casa debe ser la
+          adecuada en invierno, no es necesario ir con manga corta en julio. Además, el cambio de temperatura con el
+          exterior puede dar lugar a enfermedades.</li>
+        <li>No calientes las habitaciones que no usas.</li>
+        <li>Aprovecha la luz del sol, conviene que las cortinas y persianas no imposibiliten su acceso durante el día.
+        </li>
+        <li>Aísla tu vivienda para ahorrar gas natural en casa. En muchas viviendas las puertas y, sobre todo, las
+          ventanas permiten la entrada de aire como consecuencia del uso.</li>
+        <li>No precalientes el horno por demasiado tiempo.</li>
+        <li>No abrir el horno mientras se cocina. Esta práctica contribuye a que se pierda el calor y es
+          contraproducente para ahorrar gas natural en casa.</li>
+      </ul>
+    </article>
+
+    <article>
+      <h4 class="subtitulos">Para ahorrar LUZ:</h4>
+      <ul class="listaTips">
+        <li>Compra electrodomésticos con etiquetas de eficiencia energética de clase A.</li>
+        <li>Regula el termostato de tu heladera dependiendo de la estación del año en la que te encuentres.</li>
+        <li>Intenta abrir la puerta de tu heladera el menor número de veces posible.</li>
+        <li>Carga tu lavadora y lavavajillas lo suficiente antes de encenderlas.</li>
+        <li>Enciende el aire acondicionado solo cuando realmente es necesario y opta por modos eco.</li>
+        <li>Aprovecha el calor residual de tu vitrocerámica.</li>
+        <li>Realiza revisiones periódicas a cada uno de tus electrodomésticos para evitar problemas de sobreconsumo.
+        </li>
+      </ul>
+    </article>
+  </section>
+
+  <footer class="bg-success bg-opacity-75">
+    <div class="container-fluid d-flex flex-column align-items-center">
+      <span class="navbar-text">
+        © Copyright by Gabriela Berdasco
+      </span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
