@@ -186,18 +186,20 @@ modal1.addEventListener("click", (e) => {
 
   elecc = e.target.value;
   let resultado = 0;
-  if (selector.value !== "cocina") {
-    elecc = parseInt(elecc);
+  if (elecc) {
+    if (selector.value !== "cocina") {
+      elecc = parseInt(elecc);
+    }
+    const cal = tamaños1.indexOf(elecc);
+    const calcular = artefactos[tam].calculo;
+    const res = calcular[cal];
+    resultado = res * valorM3.value;
+    resultado = resultado.toFixed(2);
+
+    datosUsuario = pedirDatos(resultado);
+
+    mostarResultado();
+
+    almacenarDatos();
   }
-  const cal = tamaños1.indexOf(elecc);
-  const calcular = artefactos[tam].calculo;
-  const res = calcular[cal];
-  resultado = res * valorM3.value;
-  resultado = resultado.toFixed(2);
-
-  datosUsuario = pedirDatos(resultado);
-
-  mostarResultado();
-
-  almacenarDatos();
 });
